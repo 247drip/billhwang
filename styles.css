@@ -12,6 +12,22 @@ body {
     text-align: center;
 }
 
+.logocontainer {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.mccontainer {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 input {
     margin-top: 10px;
 }
