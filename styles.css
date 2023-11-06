@@ -1,8 +1,8 @@
+/* Existing CSS */
 body {
     background-color: black;
     color: white;
 }
-
 
 .container {
     position: absolute;
@@ -30,4 +30,13 @@ body {
 
 input {
     margin-top: 10px;
+}
+
+/* New CSS for Logo Image */
+.logo {
+    width: 200px; /* You can adjust the width as needed */
+    margin-bottom: 20px; /* Space below the logo */
+    display: block; /* Makes it easier to center the image */
+    margin-left: auto;
+    margin-right: auto;
 }
