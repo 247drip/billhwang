@@ -1,7 +1,25 @@
-/* Existing CSS */
 body {
     background-color: black;
     color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 25%;
+    position: absolute;
+    top: 3%;
+    left: 38%;
+    margin: auto
+    background: #000; /* Change this if you want a different background for the header */
+    /*z-index: 1000; /* Keeps the header above other content */
+    text-align: center;
+    padding: 0;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -12,7 +30,7 @@ body {
     text-align: center;
 }
 
-.logocontainer {
+.footer {
     position: absolute;
     top: 90%;
     left: 50%;
@@ -32,11 +50,4 @@ input {
     margin-top: 10px;
 }
 
-/* New CSS for Logo Image */
-.logo {
-    width: 200px; /* You can adjust the width as needed */
-    margin-bottom: 20px; /* Space below the logo */
-    display: block; /* Makes it easier to center the image */
-    margin-left: auto;
-    margin-right: auto;
-}
+/* Add any additional styles you need below */
